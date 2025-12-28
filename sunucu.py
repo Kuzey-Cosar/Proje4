@@ -16,7 +16,7 @@ def verileri_hazirla():
     for zaman_kaydi in ham_veri:
         if "konumBilgileri" in zaman_kaydi:
             for iha in zaman_kaydi["konumBilgileri"]:
-                takim_no = str(iha["takim_numarasi"])
+                takim_no = str(iha["takim_numarasifgdhdf"])
                 
                 if takim_no not in islenmis_ucuslar:
                     islenmis_ucuslar[takim_no] = {
